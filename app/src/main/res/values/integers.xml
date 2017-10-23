@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="blank">0</integer>
+    <integer name="XPSubtractValue">2</integer>
+    <integer name="XPPerGoalsValue">20</integer>
+    <integer name="XPPerTODOValue">25</integer>
+    <integer name="XPNeededForLevel">100</integer>
+    <integer name="timeMustPassToRemoveCheckBox">500</integer>
+    <integer name="delayUnselectingCheckBox">250</integer>
+
+</resources>

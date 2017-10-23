@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Achiever</string>
+
+    <string name="personalStr">Personal Version</string>
+    <string name="communityStr">Community Version</string>
+    <string name="statsStr">Stats</string>
+    <string name="settingsStr">Settings</string>
+    <string name="statsTitleStr">User Stats</string>
+    <string name="preferencesKey">UserData</string>
+    <string name="parentStr">Parent Version</string>
+
+    <!-- keys that we put into shared preferences -->
+    <string name="XP"> UserXP </string>
+    <string name="level">UserLevel</string>
+    <string name="TODOsAchieved">TODOsAchieved</string>
+    <string name="GoalsAchieved">GoalsAchieved</string>
+    <string name="XPPerGoals">XPPerGoal</string>
+    <string name="XPPerTODO">XPPerTODO</string>
+    <string name="XPNeeded">XPNeededForLvl</string>
+    <string name="XPSubtract">XPSubtract</string>
+    <string name="actualXP">ActualXP</string>
+    <string name="whichTheme">ThemeType</string>
+    <string name="dayOrNight">DayOrNight</string>
+    <string name="notificationsMode">NotificationsMode</string>
+
+    <!-- default values of few keys from shared preferences -->
+    <string name="offNotifications">OFF</string>
+    <string name="onNotifications">ON</string>
+    <string name="defaultTheme">default</string>
+    <string name="dayMode">day</string>
+
+
+    <!-- strings that we put into settings -->
+    <string name="goalsAchievedStr">You have planned :</string>
+    <string name="TODOsAchievedStr">You have done : </string>
+    <string name="XPLevelStr">Your Experience level</string>
+    <string name="BadgeStr">Your Badges : </string>
+    <string name="goalsString">goals</string>
+    <string name="TodosString">TODOs</string>
+    <string name="ExperienceLevel">Level</string>
+    <string name="statsNoKeyStr">No such a key as </string>
+    <string name="statsGoalsAchievedString">goals</string>
+
+
+    <!-- Strings that are in settings activity -->
+    <string name="setDayOrNightString">Day or night</string>
+    <string name="setThemeString">Set Theme</string>
+    <string name="setNotifiactionsString">Switch Notifications</string>
+    <string name="backString">Back</string>
+
+
+    <!-- Strings in views in personal Activity -->
+    <string name="tabHostToDoString">TODOs</string>
+    <string name="tabHostGoalsString">Goals</string>
+    <string name="tabHostAchieved">achieved</string>
+    <string name="tabHostSummary">Summary</string>
+
+    <string name="tab1Name">TODOs</string>
+    <string name="tab2Name">Goals</string>
+    <string name="tab3Name">Achieved</string>
+    <string name="tab4Name">Summary</string>
+
+    <!-- Strings that are in fragments in personal version -->
+    <string name="fragmentNotMuchHereInfo">Not much here ! Better add something to erase this void !</string>
+    <string name="TODOCheckBoxStr">Done!</string>
+
+    <!-- Strings that are in add new goal activity-->
+    <string name="questionAboutWhat"> What do You want to achieve ?               </string>
+    <string name="questionAboutWhy"> Why do You want to achieve it ?             </string>
+    <string name="questionAboutWhen"> To what date You will achieve it ?          </string>
+    <string name="questionAdditionalNotes"> Add some additional notes if You want to :  </string>
+    <string name="questionAboutTodos"> What is the list of steps to achieve it ?   </string>
+    <string name="setDateString"> Set Date                                    </string>
+    <string name="addNewGoalString"> Add !                                       </string>
+    <string name="addTodoButtonString"> Edit TODOS                                  </string>
+    <string name="todoEditorAddTODOStr"> Add TODO                                    </string>
+    <string name="addTODOToGoalInfoStr"> add step to achieve this goal :             </string>
+    <string name="addTODOToGoalAccept"> Set                                         </string>
+    <string name="addTODOtoGoalDeny"> Deny                                        </string>
+    <string name="SetNewGoalRemoveTODOStr"> Remove                                      </string>
+    <string name="dialogName"> Set TODO                                    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

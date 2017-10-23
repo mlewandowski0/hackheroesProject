@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.hackheroes.lev.achiever.activites.welcomeNewUserActivity"
+    android:screenOrientation="portrait"
+    >
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="501dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="10sp"
+                app:srcCompat="@drawable/logoachiever" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:text="ACHIEVER"
+                android:textAlignment="center"
+                android:textColor="#7a2bce"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/welcome_new_user_button"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="monospace"
+                android:text="Welcome!"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="458dp">
+
+            <TextView
+                android:id="@+id/vteam"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="#Designed by Vteam"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="italic|bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="310dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
